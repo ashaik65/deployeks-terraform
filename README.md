@@ -29,11 +29,11 @@ Notice that the Kubernetes control plane location matches the cluster_endpoint v
 
 Now verify that all three worker nodes are part of the cluster.
 
-kubectl get nodes
-NAME                                       STATUS   ROLES    AGE   VERSION
-ip-10-0-1-79.us-east-2.compute.internal    Ready    <none>   91m   v1.22.9-eks-810597c
-ip-10-0-2-107.us-east-2.compute.internal   Ready    <none>   92m   v1.22.9-eks-810597c
-ip-10-0-3-176.us-east-2.compute.internal   Ready    <none>   91m   v1.22.9-eks-810597c
+                   kubectl get nodes
+                               NAME                                       STATUS   ROLES    AGE   VERSION
+                               ip-10-0-1-79.us-east-2.compute.internal    Ready    <none>   91m   v1.22.9-eks-810597c
+                               ip-10-0-2-107.us-east-2.compute.internal   Ready    <none>   92m   v1.22.9-eks-810597c
+                               ip-10-0-3-176.us-east-2.compute.internal   Ready    <none>   91m   v1.22.9-eks-810597c
   
   
   
